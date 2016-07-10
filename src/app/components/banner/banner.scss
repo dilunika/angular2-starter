@@ -1,0 +1,44 @@
+@import "../../shared/styles/base";
+
+.banner {
+  width: 100%;
+  height: 600px;
+  background-image: url(app/images/banner.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0.74;
+}
+
+#banner {
+  font-family: 'Lato', sans-serif;
+  .profile-image {
+    width: 20em;
+    border-radius: 50%;
+    border: solid 3px;
+    border-color: lighten($primary-color,90%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+  }
+  .intro {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+
+    .heading {
+      font-size: 4em;
+      color: lighten($primary-color,70%);
+      text-transform: uppercase;
+    }
+
+    .sub-heading {
+      font-size: 2em;
+      color: lighten($primary-color,80%);;
+    }
+  }
+
+}
